@@ -1,0 +1,229 @@
+:root {
+  /* --iris: #4d5ae5; */
+  /* --ocean: #404bbf; */
+  /* --navy-blue: #2e2f42; */
+  --green: #31d0aa;
+  /* --slate: #434455; */
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  /* --white: #fff; */
+  --dairy: #fcfcfc;
+
+
+  /* Fonts */
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+
+  /* Text colors */
+  --navy-blue-tx: #2e2f42;
+  --iris-tx: #4d5ae5;
+  --slate-tx: #434455;
+  --white-tx: #fff;
+  --cloud-tx: #f4f4fd;
+  --ocean-tx: #404bbf;
+
+/* BG colors */
+--navy-blue-bg: #2e2f42;
+--iris-bg: #4d5ae5;
+--ocean-bg: #404bbf;
+
+/* Others */
+--radius: 4px;
+}
+
+.page {
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-tx);
+}
+
+.btn {
+  /* min-width: 169px;
+  min-height: 56px;
+  padding: 15px 31px; */
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+  color: var(--white-tx);
+
+  background-color: var(--iris-bg);
+  /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border-radius: var(--radius); */
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--ocean-bg);
+}
+
+/* reset styles */
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+.list {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+/* reset end */
+/* .container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid red;
+  outline-offset: -2px;
+} */
+/* Header styles */
+.header-logo {
+  font-family: var(--second-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris-tx);
+}
+
+.header-logo-accent {
+  color: var(--navy-blue-tx);
+}
+
+.header-link {
+  font-weight: 500;
+}
+.current {
+  color: var(--ocean-tx);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--ocean-tx);
+}
+
+.header-contact {
+color: var(--slate-tx);
+}
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--ocean-tx);
+}
+/* Hero styles */
+.hero {
+  background-color: var(--navy-blue-bg);
+}
+
+.hero-title {
+  width: 496px;
+  font-size: 56px;
+  line-height: calc(60 / 56);
+  text-align: center;
+  color: var(--white-tx);
+}
+/* Feature styles */
+.feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(32 / 24);
+}
+
+.feature-text {
+  color: var(--slate-tx);
+}
+/* What are we doing */
+.we-doing-title {
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.team-title-primary {
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-align: center;
+}
+
+.team-text {
+  text-align: center;
+  color: var(--slate-tx);
+}
+/* Filters styles */
+.filters-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--iris-tx);
+
+  cursor: pointer;
+}
+.filters-button:hover,
+.filters-button:focus {
+  color: var(--white-tx);
+  background-color: var(--ocean-bg);
+}
+/* Card row styles */
+.card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+}
+
+.card-text {
+  color: var(--slate-tx);
+}
+/* Footer styles */
+.footer {
+  background: var(--navy-blue-bg);
+}
+
+.footer-logo {
+  font-family: var(--second-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris-tx);
+}
+
+.footer-logo-accent {
+  color: var(--cloud-tx);
+}
+
+.footer-text {
+  color: var(--cloud-tx);
+}
