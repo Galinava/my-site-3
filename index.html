@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css"
+    />
     <!-- Fonst -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,8 +22,8 @@
   <body class="page">
     <!-- Header section -->
     <header class="header">
-      <div class="container">
-        <a class="header-logo link" href=""
+      <div class="header-container container">
+        <a class="header-logo logo link" href=""
           >Web<span class="header-logo-accent">Studio</span></a
         >
         <nav class="header-nav">
@@ -51,39 +56,39 @@
     <main>
       <!-- Hero section -->
       <section class="hero">
-        <div class="container">
+        <div class="hero-container container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button btn" type="button">Order Service</button>
         </div>
       </section>
       <!-- Feature section -->
-      <section class="feature">
+      <section class="feature section">
         <div class="container">
           <h2 hidden>Feature</h2>
           <ul class="feature-list list">
             <li class="feature-item">
-              <h3 class="feature-title">Strategy</h3>
+              <h3 class="title-secondary">Strategy</h3>
               <p class="feature-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
             <li class="feature-item">
-              <h3 class="feature-title">Punctuality</h3>
+              <h3 class="title-secondary">Punctuality</h3>
               <p class="feature-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
             <li class="feature-item">
-              <h3 class="feature-title">Diligence</h3>
+              <h3 class="title-secondary">Diligence</h3>
               <p class="feature-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
             <li class="feature-item">
-              <h3 class="feature-title">Technologies</h3>
+              <h3 class="title-secondary">Technologies</h3>
               <p class="feature-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -93,9 +98,9 @@
         </div>
       </section>
       <!-- What are we doing -->
-      <section class="we-doing">
+      <section class="we-doing section">
         <div class="container">
-          <h2 class="we-doing-title">What are we doing</h2>
+          <h2 class="we-doing-title title">What are we doing</h2>
           <ul class="we-doing-list list">
             <li class="we-doing-item">
               <img
@@ -128,11 +133,11 @@
         </div>
       </section>
       <!-- Our Team section -->
-      <section class="team">
+      <section class="team section">
         <div class="container">
-          <h2 class="team-title-primary">Our Team</h2>
-          <ul class="team-list list">
-            <li class="team-item">
+          <h2 class="team-title-primary title">Our Team</h2>
+          <ul class="team-list card-set list">
+            <li class="team-item card-set-item">
               <img
                 class="team-img"
                 src="./images/team/mark-guerrero.jpg"
@@ -140,10 +145,12 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-title">Mark Guerrero</h3>
-              <p class="team-text">Product Designer</p>
+              <div class="team-wraper">
+                <h3 class="team-title title-secondary">Mark Guerrero</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
             </li>
-            <li class="team-item">
+            <li class="team-item card-set-item">
               <img
                 class="team-img"
                 src="./images/team/tom-ford.jpg"
@@ -151,10 +158,12 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-title">Tom Ford</h3>
-              <p class="team-text">Frontend Developer</p>
+              <div class="team-wraper">
+                <h3 class="team-title title-secondary">Tom Ford</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
-            <li class="team-item">
+            <li class="team-item card-set-item">
               <img
                 class="team-img"
                 src="./images/team/camila-garcia.jpg"
@@ -162,10 +171,12 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-title">Camila Garcia</h3>
-              <p class="team-text">Marketing</p>
+              <div class="team-wraper">
+                <h3 class="team-title title-secondary">Camila Garcia</h3>
+                <p class="team-text">Marketing</p>
+              </div>
             </li>
-            <li class="team-item">
+            <li class="team-item card-set-item">
               <img
                 class="team-img"
                 src="./images/team/daniel-wilson.jpg"
@@ -173,8 +184,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="team-title">Daniel Wilson</h3>
-              <p class="team-text">UI Designer</p>
+              <div class="team-wraper">
+                <h3 class="team-title title-secondary">Daniel Wilson</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -183,8 +196,8 @@
 
     <!-- Footer section -->
     <footer class="footer">
-      <div class="container">
-        <a class="footer-logo link" href=""
+      <div class="footer-container container">
+        <a class="footer-logo logo link" href=""
           >Web<span class="footer-logo-accent">Studio</span></a
         >
         <p class="footer-text">
